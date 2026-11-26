@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sudharsan M Portfolio</title>
+
+<meta name="description" content="Sudharsan M, AWS Data Engineer in Chennai. Batch ETL pipelines, S3 data lakes, Redshift and Athena analytics with Python, PySpark and SQL.">
+<meta name="theme-color" content="#070B14">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@500;600;700&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="skip" href="#about">Skip to content</a>
+
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a class="brand" href="#home" aria-label="Sudharsan M, home"><span class="brand-mark">S</span><span class="brand-name">Sudharsan M</span></a>
+    <nav class="nav-links" id="navLinks" aria-label="Primary">
+      <a href="#home" data-link="home">Home</a>
+      <a href="#about" data-link="about">About</a>
+      <a href="#skills" data-link="skills">Skills</a>
+      <a href="#projects" data-link="projects">Projects</a>
+      <a href="#architecture" data-link="architecture">Architecture</a>
+      <a href="#experience" data-link="experience">Experience</a>
+      <a href="#certifications" data-link="certifications">Certifications</a>
+      <a href="#contact" data-link="contact">Contact</a>
+      <span class="nav-ind" id="navInd" aria-hidden="true"></span>
+    </nav>
+    <a class="btn btn-sm nav-cta" href="assets/Sudharsan_M_Resume.pdf" download="Sudharsan_M_Resume.pdf" target="_blank" rel="noopener">Resume</a>
+    <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu"><span></span><span></span></button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu" hidden>
+    <a href="#home">Home</a><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a>
+    <a href="#architecture">Architecture</a><a href="#experience">Experience</a><a href="#certifications">Certifications</a><a href="#contact">Contact</a>
+    <a class="btn" href="assets/Sudharsan_M_Resume.pdf" download="Sudharsan_M_Resume.pdf" target="_blank" rel="noopener">Download Resume</a>
+  </div>
+</header>
+
+<main>
+<!-- HERO -->
+<section class="hero" id="home" data-section>
+  <canvas id="scene" aria-hidden="true"></canvas>
+  <div class="hero-fallback" aria-hidden="true">
+    <svg viewBox="0 0 600 520" fill="none">
+      <defs><linearGradient id="fg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#38BDF8"/><stop offset="1" stop-color="#6366F1"/></linearGradient></defs>
+      <g stroke="url(#fg)" stroke-opacity=".55" stroke-width="1.2">
+        <path d="M120 140 L300 90 L470 170 L420 340 L230 380 L120 140 M300 90 L230 380 M470 170 L230 380 M120 140 L420 340"/>
+      </g>
+      <g fill="#0B1220" stroke="#38BDF8" stroke-width="1.4">
+        <ellipse cx="120" cy="140" rx="30" ry="9"/><path d="M90 140v34c0 5 13 9 30 9s30-4 30-9v-34"/>
+        <ellipse cx="420" cy="340" rx="30" ry="9"/><path d="M390 340v34c0 5 13 9 30 9s30-4 30-9v-34"/>
+        <path d="M265 100a22 22 0 0 1 40-12 26 26 0 0 1 36 10 18 18 0 0 1-4 36h-66a20 20 0 0 1-6-34z" transform="translate(-30 -10)"/>
+      </g>
+      <g fill="#22D3EE"><circle cx="470" cy="170" r="5"/><circle cx="230" cy="380" r="5"/><circle cx="300" cy="90" r="4"/></g>
+    </svg>
+  </div>
+  <div class="hero-grid"></div>
+  <div class="wrap hero-inner">
+    <div class="hero-copy">
+      <p class="eyebrow mono"><span class="pulse"></span>AWS Data Engineer · Chennai, India</p>
+      <h1 class="hero-h1"><span class="line">Engineering Data.</span><span class="line grad">Enabling Intelligence.</span></h1>
+      <p class="hero-name mono">SUDHARSAN M.</p>
+      <p class="hero-role">AWS Data Engineer <i>|</i> Python <i>|</i> PySpark <i>|</i> SQL</p>
+      <p class="hero-intro">I build and optimize scalable batch data pipelines on AWS: ETL with Glue, Lambda and Step Functions, S3 data lakes, and Redshift and Athena for analytics. About <span data-bind="years">2.8</span> years of experience across e-commerce and insurance data.</p>
+      <p class="hero-typed mono"><span class="dim">currently_using</span> <span class="typed-wrap"><span id="typed"></span><span class="caret"></span></span></p>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="#projects">Explore My Projects <span aria-hidden="true">→</span></a>
+        <a class="btn" href="assets/Sudharsan_M_Resume.pdf" download="Sudharsan_M_Resume.pdf" target="_blank" rel="noopener">Download Resume</a>
+        <a class="btn btn-ghost" href="#contact">Contact Me</a>
+      </div>
+      <div class="social-row">
+        <a class="soc" data-bind="linkedin-href" href="#" target="_blank" rel="noopener" aria-label="LinkedIn profile">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.75h4V21H3zM9.5 9.75h3.8v1.6h.06c.53-1 1.82-2.05 3.75-2.05 4 0 4.75 2.63 4.75 6.05V21h-4v-5.1c0-1.22-.02-2.78-1.7-2.78-1.7 0-1.96 1.33-1.96 2.7V21h-4z"/></svg>LinkedIn</a>
+      </div>
+    </div>
+    <div class="hero-visual" id="heroVisual">
+      <div class="pv" data-depth="14" aria-hidden="true">
+        <div class="pv-head mono"><span class="pv-dots"><i></i><i></i><i></i></span>aws · batch pipeline</div>
+        <div class="pv-row"><span class="pv-ic">S3</span><span class="pv-t"><b>Amazon S3</b></span></div>
+        <div class="pv-link"><i></i><i></i></div>
+        <div class="pv-row"><span class="pv-ic">λ</span><span class="pv-t"><b>AWS Lambda</b></span></div>
+        <div class="pv-link"><i></i><i></i></div>
+        <div class="pv-row"><span class="pv-ic">Gl</span><span class="pv-t"><b>AWS Glue · PySpark</b></span></div>
+        <div class="pv-link"><i></i><i></i></div>
+        <div class="pv-row"><span class="pv-ic">Rs</span><span class="pv-t"><b>Amazon Redshift</b></span></div>
+        <div class="pv-link"><i></i><i></i></div>
+        <div class="pv-row"><span class="pv-ic">At</span><span class="pv-t"><b>Athena + SQL</b></span></div>
+      </div>
+      <div class="chip-float c1" data-depth="30"><b data-bind="years">2.8</b><span>years experience</span></div>
+      <div class="chip-float c2" data-depth="22"><b>9</b><span>AWS services</span></div>
+      <div class="chip-float c3" data-depth="36"><b>2</b><span>AWS data pipelines</span></div>
+    </div>
+  </div>
+  <a class="scroll-hint mono" href="#about" aria-label="Scroll to about">scroll<span></span></a>
+</section>
+
+<!-- ABOUT -->
+<section class="section" id="about" data-section>
+  <div class="wrap">
+    <header class="sec-head reveal"><p class="eyebrow mono">About</p><h2>Pipelines that move data from raw files to reports.</h2></header>
+    <div class="about-grid">
+      <figure class="about-photo reveal">
+        <img src="assets/sudharsan.jpg" alt="Sudharsan M in a dark blazer" loading="lazy" width="900" height="900">
+        <figcaption class="mono">Sudharsan M · Chennai, India</figcaption>
+      </figure>
+      <div class="about-copy reveal">
+        <p class="lead">I am a data engineer with about <span data-bind="years">2.8</span> years of experience building and optimizing scalable batch data pipelines on AWS.</p>
+        <p>My work is Python, PySpark and SQL for data processing, transformation and automation. I develop ETL workflows with AWS Glue, Lambda and Step Functions, and design S3-based data lakes with Redshift and Athena for analytics.</p>
+        <p>I am comfortable with data modeling using star schemas, data quality validation, and pipeline monitoring. I have delivered data solutions in the e-commerce and insurance domains.</p>
+        <dl class="facts">
+          <div><dt class="mono">Current role</dt><dd>AWS Data Engineer, Amazon</dd></div>
+          <div><dt class="mono">Experience</dt><dd><span data-bind="years">2.8</span> years</dd></div>
+          <div><dt class="mono">Domains</dt><dd>E-commerce, Insurance</dd></div>
+          <div><dt class="mono">Education</dt><dd>MCA, Bishop Heber College</dd></div>
+          <div><dt class="mono">Location</dt><dd>Chennai, India</dd></div>
+        </dl>
+        <div class="focus">
+          <h3 class="mono">What I work on</h3>
+          <ul>
+            <li>Batch ETL pipelines with Glue (PySpark), Lambda and Step Functions</li>
+            <li>S3 data lakes with raw and clean zones, stored as Parquet</li>
+            <li>Star-schema models and Redshift warehouses</li>
+            <li>Data quality checks and CloudWatch monitoring</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section class="section alt" id="skills" data-section>
+  <div class="wrap">
+    <header class="sec-head reveal"><p class="eyebrow mono">Technical skills</p><h2>The stack I work with.</h2>
+      <p class="sub">Hover a card to see where I used it.</p></header>
+    <div class="filters reveal" id="skillFilters" role="tablist" aria-label="Skill categories"></div>
+    <div class="skill-grid" id="skillGrid"></div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="section" id="projects" data-section>
+  <div class="wrap">
+    <header class="sec-head reveal"><p class="eyebrow mono">Featured projects</p><h2>Two AWS data platforms, built from raw files to reports.</h2>
+      <p class="sub">Open a project for the objective, architecture and implementation details.</p></header>
+    <div class="project-grid" id="projectGrid"></div>
+  </div>
+</section>
+
+<!-- ARCHITECTURE LAB -->
+<section class="section alt" id="architecture" data-section>
+  <div class="wrap">
+    <header class="sec-head reveal"><p class="eyebrow mono">Architecture lab</p><h2>Inside a Modern Data Pipeline</h2>
+      <p class="sub"><span class="tag">Conceptual demonstration</span> This is a general reference architecture. The "In my projects" notes link each stage to work listed on my resume.</p></header>
+    <div class="lab reveal">
+      <ol class="pipe" id="pipe"></ol>
+      <aside class="inspector" id="inspector" aria-live="polite"></aside>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section class="section" id="experience" data-section>
+  <div class="wrap">
+    <header class="sec-head reveal"><p class="eyebrow mono">Professional experience</p><h2>Two data engineering roles.</h2></header>
+    <div class="xp">
+      <article class="xp-card reveal">
+        <div class="xp-meta"><span class="mono xp-date">Mar 2025 – Present</span><span class="live"><i></i>Current</span></div>
+        <h3>AWS Data Engineer</h3><p class="org">Amazon</p>
+        <ul>
+          <li>Build and maintain batch ETL pipelines on AWS using Glue (PySpark), Lambda and Step Functions.</li>
+          <li>Load cleaned, Parquet-formatted data into an S3 data lake and Redshift for reporting and analytics.</li>
+          <li>Write SQL queries and use Athena to support reporting and ad-hoc analysis.</li>
+          <li>Monitor pipelines with CloudWatch alerts and apply data quality checks for nulls, duplicates and row counts.</li>
+        </ul>
+        <div class="chips"><span>Glue (PySpark)</span><span>Lambda</span><span>Step Functions</span><span>S3</span><span>Redshift</span><span>Athena</span><span>CloudWatch</span><span>SQL</span></div>
+      </article>
+      <article class="xp-card reveal">
+        <div class="xp-meta"><span class="mono xp-date">Aug 2023 – Jul 2024</span></div>
+        <h3>Data Engineer</h3><p class="org">Tenacitics India Pvt Ltd</p>
+        <ul>
+          <li>Developed Python and PySpark ETL jobs to clean, transform and load data into a data warehouse.</li>
+          <li>Designed star-schema data models with fact and dimension tables for reporting.</li>
+          <li>Wrote SQL queries for business reports and data validation.</li>
+          <li>Used Git/GitHub for version control and worked with relational databases (PostgreSQL, MySQL, Oracle).</li>
+        </ul>
+        <div class="chips"><span>Python</span><span>PySpark</span><span>SQL</span><span>Star schema</span><span>PostgreSQL</span><span>MySQL</span><span>Oracle</span><span>Git / GitHub</span></div>
+      </article>
+    </div>
+
+    <div class="transfer reveal">
+      <h3 class="mono">Skills carried across both roles</h3>
+      <div class="chips big"><span>ETL pipeline development</span><span>Data modeling</span><span>SQL reporting</span><span>Data quality validation</span><span>Python and PySpark</span><span>Version control with Git</span></div>
+    </div>
+
+    <header class="sec-head reveal journey-head"><p class="eyebrow mono">Career journey</p><h2>From BCA to AWS data engineering.</h2></header>
+    <ol class="journey">
+      <li class="reveal"><span class="j-date mono">2018</span><div><h4>Started BCA</h4><p>Bachelor of Computer Applications, Bishop Heber College. CGPA 8.17.</p></div></li>
+      <li class="reveal"><span class="j-date mono">2021</span><div><h4>Started MCA</h4><p>Master of Computer Applications, Bishop Heber College. CGPA 7.92.</p></div></li>
+      <li class="reveal"><span class="j-date mono">Aug 2023</span><div><h4>Joined Tenacitics India as Data Engineer</h4><p>Python and PySpark ETL, star-schema models and SQL reporting on relational databases.</p></div></li>
+      <li class="reveal"><span class="j-date mono">Mar 2025</span><div><h4>Joined Amazon as AWS Data Engineer</h4><p>Batch ETL on Glue, Lambda and Step Functions, with an S3, Redshift and Athena analytics layer.</p></div></li>
+      <li class="reveal"><span class="j-date mono">Feb 2026</span><div><h4>Microsoft Certified: Fabric Analytics Engineer Associate</h4><p>Certification earned on February 7, 2026.</p></div></li>
+      <li class="reveal"><span class="j-date mono">Projects</span><div><h4>Two AWS data platforms</h4><p>E-Commerce analytics pipeline and Insurance claims analytics platform.</p></div></li>
+    </ol>
+  </div>
+</section>
+
+<!-- EDUCATION / CERTIFICATIONS -->
+<section class="section alt" id="certifications" data-section>
+  <div class="wrap">
+    <header class="sec-head reveal"><p class="eyebrow mono">Education and certifications</p><h2>Credentials and academic foundation.</h2></header>
+    <div class="edu-grid cert-row" id="certGrid"></div>
+    <div class="edu-grid">
+      <article class="edu-card reveal"><span class="mono edu-year">2021 – 2023</span><h3>Master of Computer Applications (MCA)</h3><p class="org">Bishop Heber College</p><p class="cgpa"><b>7.92</b> CGPA</p></article>
+      <article class="edu-card reveal"><span class="mono edu-year">2018 – 2021</span><h3>Bachelor of Computer Applications (BCA)</h3><p class="org">Bishop Heber College</p><p class="cgpa"><b>8.17</b> CGPA</p></article>
+      <article class="edu-card placeholder reveal" data-placeholder>
+        <span class="mono edu-year">Placeholder</span><h3>Certification title</h3><p class="org">Issuing organization · Completion date</p>
+        <p class="muted-note">No certifications are listed on my resume yet. To add one, edit <code>CERTS</code> in <code>app.js</code>, or set <code>showPlaceholders</code> to <code>false</code> to hide this card.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section contact" id="contact" data-section>
+  <div class="wrap">
+    <header class="sec-head reveal"><p class="eyebrow mono">Contact</p><h2 class="big">Let's Build Something Meaningful With Data.</h2></header>
+    <div class="contact-grid">
+      <div class="contact-side reveal">
+        <div class="c-card">
+          <span class="mono lbl">Email</span>
+          <p class="c-email" id="emailText">sudharsanm1712@gmail.com</p>
+          <div class="c-actions"><button class="btn btn-sm" type="button" id="copyEmail">Copy email</button><a class="btn btn-sm btn-ghost" data-bind="mailto" href="#">Open in mail app</a></div>
+        </div>
+        <div class="c-card">
+          <span class="mono lbl">Mobile</span>
+          <p class="c-email" id="phoneText">+91 9629606062</p>
+          <div class="c-actions"><button class="btn btn-sm" type="button" id="copyPhone">Copy number</button></div>
+        </div>
+        <a class="c-card link" data-bind="linkedin-href" href="#" target="_blank" rel="noopener">
+          <span class="mono lbl">LinkedIn</span><p class="c-title">sudharsan-m-a94728208</p><p class="c-sub">Professional profile and experience</p><span class="arrow" aria-hidden="true">↗</span>
+        </a>
+      </div>
+      <form class="form reveal" id="contactForm" novalidate>
+        <div class="field"><label for="fName">Your name</label><input id="fName" name="name" type="text" autocomplete="name" required minlength="2" maxlength="80"><p class="err" id="eName" role="alert"></p></div>
+        <div class="field"><label for="fEmail">Your email</label><input id="fEmail" name="email" type="email" autocomplete="email" required maxlength="120"><p class="err" id="eEmail" role="alert"></p></div>
+        <div class="field"><label for="fSubject">Subject</label><input id="fSubject" name="subject" type="text" maxlength="120" placeholder="Data engineering opportunity"></div>
+        <div class="field"><label for="fMsg">Message</label><textarea id="fMsg" name="message" rows="5" required minlength="10" maxlength="2000"></textarea><p class="err" id="eMsg" role="alert"></p></div>
+        <button class="btn btn-primary" type="submit">Send message</button>
+        <div class="status" id="formStatus" role="status" aria-live="polite" hidden></div>
+      </form>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="wrap foot-inner">
+    <span class="mono">© 2026 Sudharsan M · Chennai, India</span>
+    <a class="mono" href="#home">Back to top ↑</a>
+  </div>
+</footer>
+
+<div class="modal" id="modal" hidden>
+  <div class="modal-backdrop" data-close></div>
+  <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="mTitle" tabindex="-1">
+    <button class="modal-x" type="button" data-close aria-label="Close project details">×</button>
+    <div id="modalBody"></div>
+  </div>
+</div>
+
+<script src="icons.js"></script>
+<script src="scene.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
